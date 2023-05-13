@@ -21,7 +21,6 @@
     "react-copy-to-clipboard": "^5.1.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.8.0",
-    "react-reveal": "^1.2.2",
     "react-table": "^7.8.0",
     "react-toastify": "^9.1.2"
   },
