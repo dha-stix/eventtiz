@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "Space Grotesk", sans-serif;
+}
+.poppins {
+	font-family: "Poppins", sans-serif;
+}
+.home {
+	background-image: url("../images/heroimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+.register {
+	background-image: url("../images/regimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+.registergray {
+	background-image: url("../images/regimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+	filter: grayscale(100%);
+}
+.login {
+	background-image: url("../images/heroimage.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+tr:nth-child(even) {
+	background-color: #f0eeed;
+}
+table {
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	max-height: 200px;
+	overflow-y: hidden;
+	width: 100%;
+}
+th,
+td {
+	border: 1px solid #ddd;
+	border-collapse: collapse;
+	padding: 10px;
+}
+.dim {
+	background-color: rgba(0, 0, 0, 0.8);
+}
