@@ -11,8 +11,6 @@
   "dependencies": {
     "@emailjs/browser": "^3.11.0",
     "@next/font": "13.1.1",
-    "@novu/node": "^0.14.0",
-    "@reduxjs/toolkit": "^1.9.5",
     "eslint": "8.31.0",
     "eslint-config-next": "13.1.1",
     "firebase": "^9.21.0",
