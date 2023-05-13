@@ -25,7 +25,7 @@ export async function getServerSideProps(context) {
 	};
 }
 
-const id = ({ event }) => {
+const RegisterPage = ({ event }) => {
 	const [success, setSuccess] = useState(false);
 	const [loading, setLoading] = useState(false);
 	const [name, setName] = useState("");
@@ -139,5 +139,4 @@ const id = ({ event }) => {
 		</div>
 	);
 };
-
-export default id;
+export default RegisterPage;

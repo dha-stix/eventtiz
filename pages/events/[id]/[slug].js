@@ -25,15 +25,15 @@ export async function getServerSideProps(context) {
 	};
 }
 
-const id = ({ firebaseEvent }) => {
+const ListEvent = ({ firebaseEvent }) => {
 	const [click, setClick] = useState(firebaseEvent.disableRegistration);
 	const [showModal, setShowModal] = useState(false);
-	const [disableRegModal, setDisableRegModal] = useState(false)
+	const [disableRegModal, setDisableRegModal] = useState(false);
 	const openModal = () => setShowModal(true);
 	const closeModal = () => setShowModal(false);
 	const router = useRouter();
 
-	if(!firebaseEvent.title) return <ErrorPage/>
+	if (!firebaseEvent.title) return <ErrorPage />;
 
 	return (
 		<div>
@@ -86,4 +86,4 @@ const id = ({ firebaseEvent }) => {
 	);
 };
 
-export default id;
+export default ListEvent;
