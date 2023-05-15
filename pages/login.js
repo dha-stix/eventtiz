@@ -19,7 +19,7 @@ const login = () => {
 	return (
 		<div>
 			<Head>
-				<title>Register | EventTiz</title>
+				<title>Login | EventTiz</title>
 				<meta
 					name='description'
 					content='An event ticketing system built with NextJS and Firebase'
