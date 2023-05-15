@@ -103,10 +103,9 @@ export const addEventToFirebase = async (
 
 	if (flier !== null) {
 		await uploadString(imageRef, flier, "data_url").then(async () => {
-			//Gets the image URL
+			//👇🏻 Gets the image URL
 			const downloadURL = await getDownloadURL(imageRef);
-
-			//Updates the docRef, by adding the logo URL to the document
+			//👇🏻 Updates the docRef, by adding the logo URL to the document
 			await updateDoc(doc(db, "events", docRef.id), {
 				flier_url: downloadURL,
 			});

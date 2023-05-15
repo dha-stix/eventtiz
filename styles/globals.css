@@ -11,6 +11,9 @@
 .poppins {
 	font-family: "Poppins", sans-serif;
 }
+.link {
+	word-break: break-all;
+}
 .home {
 	background-image: url("../images/heroimage.jpg");
 	background-repeat: no-repeat;
