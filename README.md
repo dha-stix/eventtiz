@@ -11,7 +11,7 @@
 [View Live Version](https://eventtiz.vercel.app)
 
 ## How-to Guide
-[Read the article on Dev.to]()
+[Read the article on Dev.to](https://dev.to/arshadayvid/how-i-built-an-event-ticketing-system-with-nextjs-and-firebase-50l2)
 
 ## Installation
 - Clone the project repository. Don't forget to star the repo 😉
