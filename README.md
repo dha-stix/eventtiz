@@ -16,7 +16,7 @@
 ## Installation
 - Clone the project repository. Don't forget to star the repo 😉
 - Run `npm install` to install its dependencies.
-- Start the development server by running `npm start`
+- Start the development server by running `npm run dev`
 
 ## Tools
 - [NextJS 13](https://nextjs.org/docs)
